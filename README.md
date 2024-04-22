@@ -1,2 +1,2 @@
-# space-shuttle
-Assignment on space shuttle
+# sjavascript-projects
+Repository to store Launchcode javascript assignments
