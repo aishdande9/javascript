@@ -1,0 +1,18 @@
+let missionName = "Determination";
+let shuttleSpeed = 17500;
+let kilometersToMars = 225000000;
+let kilometersToMoon = 384400;
+const milesPerKm = 0.621;
+console.log(typeof missionName);
+console.log(typeof shuttleSpeed);
+console.log(typeof kilometersToMars);
+console.log(typeof kilometersToMoon);
+console.log(typeof milesPerKm);
+let milesToMars = kilometersToMars*milesPerKm;
+let hoursToMars = milesToMars/shuttleSpeed;
+let daysToMars = hoursToMars/24;
+console.log(missionName+" "+"will take "+daysToMars+" "+"to reach mars!!!");
+let milesToMoon = kilometersToMoon*milesPerKm;
+let hoursToMoon = milesToMoon/shuttleSpeed;
+let daysToMoon = hoursToMoon/24;
+console.log(missionName+" "+"will take "+daysToMoon+" "+"to reach the moon!!!");
